@@ -45,7 +45,7 @@ spec:
         - name: regcred
       containers:
         - name: curso-contenedores
-          image: ghcr.io/carlosmarind/curso-contenedores:latest
+          image: docker pull ghcr.io/sjerezb/curso-contenedores
 
           imagePullPolicy: Always
           env:
